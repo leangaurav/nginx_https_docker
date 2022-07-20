@@ -38,7 +38,7 @@ server {
     listen [::]:80;
     server_name test.leangaurav.dev;
 location / {
-        rewrite ^ https://$host$request_uri? permanent;
+        return 301 https://$host$request_uri;
     }
 location ~ /.well-known/acme-challenge {
         allow all;
