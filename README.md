@@ -10,9 +10,9 @@ Below is a basic setup guide:
 
 **Step-3:** Open `docker-compose-le.yaml` and replace `your.email@email.com` and `test.leangaurav.com`
 
-**Step-4:** In a terminal (T1) run `docker-compose up --build nginx` monitor the logs for errors as we follow next steps
+**Step-4:** In a terminal (T1) run `docker compose up --build nginx` monitor the logs for errors as we follow next steps
 
-**Step-5:** In another terminal (T2) run `docker-compose -f docker-compose-le.yaml up --build`
+**Step-5:** In another terminal (T2) run `docker compose -f docker-compose-le.yaml up --build`
 
 **Step-6:** If things go well, the second terminal (T2) will show something like this
 ```Successfully received certificate.
