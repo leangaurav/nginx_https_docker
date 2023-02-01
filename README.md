@@ -1,6 +1,6 @@
 # HTTPS setup: Nginx Reverse Proxy+ Letsencrypt+ AWS Cloud + Docker
 
-A detailed set of instructions can be found [here](https://leangaurav.medium.com/simplest-https-setup-nginx-reverse-proxy-letsencrypt-ssl-certificate-aws-cloud-docker-4b74569b3c61)  
+A detailed steps with FAQs is available [**here**](https://leangaurav.medium.com/simplest-https-setup-nginx-reverse-proxy-letsencrypt-ssl-certificate-aws-cloud-docker-4b74569b3c61)  
 
 Below is a basic setup guide:
 
