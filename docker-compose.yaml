@@ -1,5 +1,4 @@
 version: "3.3"
-name: "nginx_https_docker"
 
 services:
   nginx:
