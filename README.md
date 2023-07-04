@@ -58,4 +58,4 @@ ssl_certificate /etc/letsencrypt/live/test.leangaurav.dev/fullchain.pem;
 SSL certificates should be installed. Verify by visiting your domain. You will get an Nginx 404 but it will be served over https. Check the certificate details.
 
 **Step-9:** Setup crontab for auto-renew by running command `crontab -e` and then pasting the below stuff there. Make sure you put the absolute path to the `docker-compose` file.
-```0 0 * * 0 expr `date +\%W` \% 2 > /dev/null || docker-compose -f <absolute path to folder>/docker-compose-le.yaml up && docker exec -it nginx-service nginx -s reload ```
+```0 0 * * 0 expr `date +\%W` \% 2 > /dev/null || docker compose -f <absolute path to folder>/docker-compose-le.yaml up && docker exec -it nginx-service nginx -s reload ```
